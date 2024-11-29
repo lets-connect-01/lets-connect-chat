@@ -1,0 +1,35 @@
+/* list.css */
+.list {
+  flex: 1.5;
+  border-right: 1px solid #dddddd35;
+  min-width: 300px;
+  display: flex; /* Added display: flex */
+  flex-direction: column; /* Added flex-direction: column */
+  gap: 30px; /* Added gap between components */
+}
+.list .tab-buttons { /* Styles for the tab buttons */
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dddddd35;
+}
+
+.list .tab-buttons button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.list .tab-buttons button.active { /* Style for the active tab */
+  border-bottom: 2px solid #5183fe;
+  font-weight: bold;
+}
+.tab-buttons button.active {
+  border-bottom: 2px solid #5183fe; /* Active tab style */
+  font-weight: bold;
+}
+
+/* Add any additional styles needed for chatbot integration */

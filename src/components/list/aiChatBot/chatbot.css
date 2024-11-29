@@ -1,0 +1,44 @@
+.chatbot {
+    border: 1px solid #dddddd35; /* Match with your app's border styles */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(17, 25, 40, 0.8); /* Dark background to match your app */
+    color: white; /* Text color for better readability */
+  }
+  
+  .messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .user {
+    text-align: right;
+    color: #1f8ef1; /* User message color */
+  }
+  
+  .ai {
+    text-align: left;
+    color: #00ff00; /* AI message color */
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2); /* Light background for input */
+    color: white; /* Text color for input */
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1f8ef1; /* Button color */
+    color: white; /* Text color for button */
+  }

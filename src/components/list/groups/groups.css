@@ -1,0 +1,93 @@
+/* groups.css */
+
+.groups {
+    flex: 1;
+    overflow: scroll;
+  }
+  
+  .groups .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .groups .search .searchBar {
+    flex: 1;
+    background-color: rgba(17, 25, 40, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .groups .search .searchBar input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    flex: 1;
+  }
+  
+  .groups .search .searchBar img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .groups .search .add {
+    width: 36px;
+    height: 36px;
+    background-color: rgba(17, 25, 40, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .groups .addGroup { /* Styles for the "add group" section */
+    padding: 20px;
+    background-color: rgba(17, 25, 40, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add some space below the form */
+  }
+  
+  .groups .addGroup input[type="text"] { /* Style for the group name input */
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add space between input and checkboxes */
+  }
+  
+  .groups .addGroup .userSelection { /* Style for the user selection container */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px; /* Add space between checkboxes and button */
+  }
+  
+  .groups .addGroup .userSelection label { /* Style for each user checkbox */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white; /* Set checkbox label color to white */
+  }
+  
+  .groups .addGroup button { /* Style for the "Create Group" button */
+    background-color: #5183fe;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .groups .group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #dddddd35;
+  }
